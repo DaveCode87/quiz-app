@@ -84,29 +84,6 @@ export default function App() {
                 <strong>{points}</strong> / {maxPossiblePoints}
               </p>
             </div>
-            {/* <div>
-              <h4>{question.text}</h4>
-              <div className="options">
-                {question.answers.map((answer, idx) => (
-                  <button
-                    className={`btn btn-option ${
-                      idx === answer ? "answer" : ""
-                    } ${
-                      hasAnswered
-                        ? answer.isCorrect
-                          ? "correct"
-                          : "wrong"
-                        : ""
-                    }`}
-                    key={answer.text}
-                    disabled={hasAnswered}
-                    onClick={() => answerQuestion(idx)}
-                  >
-                    {answer.text}
-                  </button>
-                ))}
-              </div>
-            </div> */}
             <div>
               <h4>{question.text}</h4>
               <div className="options">
