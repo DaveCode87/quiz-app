@@ -38,7 +38,6 @@ export default function App() {
   return (
     <div className="app">
       <div className="app-header">
-        <img src="logo512.png" alt="React logo" />
         {status === "active" ? (
           <div className="timer">
             {mins < 10 && "0"}

@@ -1,137 +1,5 @@
 [
   {
-    "text": "Qual è il concetto principale di React?",
-    "answers": [
-      {
-        "text": "Componenti",
-        "isCorrect": true
-      },
-      {
-        "text": "Stato",
-        "isCorrect": false
-      },
-      {
-        "text": "Props",
-        "isCorrect": false
-      },
-      {
-        "text": "Router",
-        "isCorrect": false
-      }
-    ],
-    "points": 15
-  },
-  {
-    "text": "Qual è il framework più popolare per lo sviluppo di applicazioni React?",
-    "answers": [
-      {
-        "text": "Angular",
-        "isCorrect": false
-      },
-      {
-        "text": "React Native",
-        "isCorrect": false
-      },
-      {
-        "text": "Next.js",
-        "isCorrect": true
-      },
-      {
-        "text": "Vue.js",
-        "isCorrect": false
-      }
-    ],
-    "points": 20
-  },
-  {
-    "text": "Quale libreria React viene utilizzata per la gestione dello stato globale?",
-    "answers": [
-      {
-        "text": "Redux",
-        "isCorrect": true
-      },
-      {
-        "text": "React Router",
-        "isCorrect": false
-      },
-      {
-        "text": "Axios",
-        "isCorrect": false
-      },
-      {
-        "text": "Jest",
-        "isCorrect": false
-      }
-    ],
-    "points": 25
-  },
-  {
-    "text": "Qual è il hook utilizzato per eseguire effetti collaterali in un componente React?",
-    "answers": [
-      {
-        "text": "useEffect",
-        "isCorrect": true
-      },
-      {
-        "text": "useState",
-        "isCorrect": false
-      },
-      {
-        "text": "useContext",
-        "isCorrect": false
-      },
-      {
-        "text": "useRef",
-        "isCorrect": false
-      }
-    ],
-    "points": 15
-  },
-  {
-    "text": "Quale metodo viene utilizzato per aggiungere un elemento React all'elemento del DOM esistente?",
-    "answers": [
-      {
-        "text": "ReactDOM.render()",
-        "isCorrect": true
-      },
-      {
-        "text": "React.create()",
-        "isCorrect": false
-      },
-      {
-        "text": "React.append()",
-        "isCorrect": false
-      },
-      {
-        "text": "React.attach()",
-        "isCorrect": false
-      }
-    ],
-    "points": 20
-  },
-  {
-    "text": "Quale componente React viene utilizzato per la gestione delle rotte in un'applicazione web?",
-    "answers": [
-      {
-        "text": "Route",
-        "isCorrect": false
-      },
-      {
-        "text": "Router",
-        "isCorrect": true
-      },
-      {
-        "text": "Navigation",
-        "isCorrect": false
-      },
-      {
-        "text": "Link",
-        "isCorrect": false
-      }
-    ],
-    "points": 15
-  },
-  {
     "text": "Qual è il concetto principale di Next.js?",
     "answers": [
       {
@@ -151,14 +19,15 @@
         "isCorrect": false
       }
     ],
-    "points": 20
+    "points": 15
   },
+
   {
-    "text": "Qual è il comando per avviare un'applicazione Next.js in modalità di sviluppo?",
+    "text": "Qual è il comando per avviare un'applicazione React in modalità di sviluppo?",
     "answers": [
       {
         "text": "npm start",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "npm run build",
@@ -166,81 +35,16 @@
       },
       {
         "text": "npm run dev",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "npm run deploy",
         "isCorrect": false
       }
     ],
-    "points": 15
-  },
-  {
-    "text": "In quale directory vengono solitamente collocati i file delle pagine in un progetto Next.js?",
-    "answers": [
-      {
-        "text": "src",
-        "isCorrect": false
-      },
-      {
-        "text": "pages",
-        "isCorrect": true
-      },
-      {
-        "text": "public",
-        "isCorrect": false
-      },
-      {
-        "text": "components",
-        "isCorrect": false
-      }
-    ],
     "points": 20
   },
-  {
-    "text": "Qual è la funzione utilizzata per il prerendering delle pagine in Next.js?",
-    "answers": [
-      {
-        "text": "getStaticProps",
-        "isCorrect": true
-      },
-      {
-        "text": "getServerSideProps",
-        "isCorrect": false
-      },
-      {
-        "text": "useEffect",
-        "isCorrect": false
-      },
-      {
-        "text": "fetchData",
-        "isCorrect": false
-      }
-    ],
-    "points": 15
-  },
-  {
-    "text": "Quale comando Next.js viene utilizzato per eseguire il prerendering delle pagine?",
-    "answers": [
-      {
-        "text": "npm run build",
-        "isCorrect": false
-      },
-      {
-        "text": "npm run dev",
-        "isCorrect": false
-      },
-      {
-        "text": "npm run start",
-        "isCorrect": false
-      },
-      {
-        "text": "npm run export",
-        "isCorrect": true
-      }
-    ],
-    "points": 20
-  },
+
   {
     "text": "Qual è il componente React utilizzato per la gestione dello stato globale in un'applicazione Next.js?",
     "answers": [
@@ -263,30 +67,193 @@
     ],
     "points": 15
   },
+
   {
-    "text": "Qual è il comando per la creazione di un nuovo progetto Next.js?",
+    "text": "Qual è il comando per la creazione di un nuovo progetto React?",
     "answers": [
       {
-        "text": "create-next-app",
+        "text": "create-react-app",
         "isCorrect": true
       },
       {
-        "text": "next-app-create",
+        "text": "react-create-app",
         "isCorrect": false
       },
       {
-        "text": "next-create",
+        "text": "new-react-app",
         "isCorrect": false
       },
       {
-        "text": "new-next-app",
+        "text": "react-app-create",
         "isCorrect": false
       }
     ],
     "points": 20
   },
+
   {
-    "text": "Quale struttura di directory viene utilizzata comunemente per un progetto Next.js?",
+    "text": "In React, quale hook viene utilizzato per gestire lo stato locale in un componente funzionale?",
+    "answers": [
+      {
+        "text": "useState",
+        "isCorrect": true
+      },
+      {
+        "text": "useEffect",
+        "isCorrect": false
+      },
+      {
+        "text": "useContext",
+        "isCorrect": false
+      },
+      {
+        "text": "useRef",
+        "isCorrect": false
+      }
+    ],
+    "points": 15
+  },
+
+  {
+    "text": "Qual è il framework JavaScript più popolare per lo sviluppo di applicazioni React Native?",
+    "answers": [
+      {
+        "text": "Angular",
+        "isCorrect": false
+      },
+      {
+        "text": "React Native",
+        "isCorrect": true
+      },
+      {
+        "text": "Next.js",
+        "isCorrect": false
+      },
+      {
+        "text": "Vue.js",
+        "isCorrect": false
+      }
+    ],
+    "points": 20
+  },
+
+  {
+    "text": "Qual è il hook utilizzato per eseguire effetti collaterali in un componente React?",
+    "answers": [
+      {
+        "text": "useEffect",
+        "isCorrect": true
+      },
+      {
+        "text": "useState",
+        "isCorrect": false
+      },
+      {
+        "text": "useContext",
+        "isCorrect": false
+      },
+      {
+        "text": "useRef",
+        "isCorrect": false
+      }
+    ],
+    "points": 15
+  },
+
+  {
+    "text": "Quale metodo viene utilizzato per aggiungere un elemento React all'elemento del DOM esistente?",
+    "answers": [
+      {
+        "text": "ReactDOM.render()",
+        "isCorrect": true
+      },
+      {
+        "text": "React.create()",
+        "isCorrect": false
+      },
+      {
+        "text": "React.append()",
+        "isCorrect": false
+      },
+      {
+        "text": "React.attach()",
+        "isCorrect": false
+      }
+    ],
+    "points": 20
+  },
+
+  {
+    "text": "Quale componente React viene utilizzato per la gestione delle rotte in un'applicazione web?",
+    "answers": [
+      {
+        "text": "Route",
+        "isCorrect": false
+      },
+      {
+        "text": "Router",
+        "isCorrect": true
+      },
+      {
+        "text": "Navigation",
+        "isCorrect": false
+      },
+      {
+        "text": "Link",
+        "isCorrect": false
+      }
+    ],
+    "points": 15
+  },
+
+  {
+    "text": "Qual è il concetto principale di React?",
+    "answers": [
+      {
+        "text": "Componenti",
+        "isCorrect": true
+      },
+      {
+        "text": "Stato",
+        "isCorrect": false
+      },
+      {
+        "text": "Props",
+        "isCorrect": false
+      },
+      {
+        "text": "Router",
+        "isCorrect": false
+      }
+    ],
+    "points": 15
+  },
+
+  {
+    "text": "Quale libreria React viene utilizzata per la gestione dello stato globale?",
+    "answers": [
+      {
+        "text": "Redux",
+        "isCorrect": true
+      },
+      {
+        "text": "React Router",
+        "isCorrect": false
+      },
+      {
+        "text": "Axios",
+        "isCorrect": false
+      },
+      {
+        "text": "Jest",
+        "isCorrect": false
+      }
+    ],
+    "points": 25
+  },
+
+  {
+    "text": "Quale struttura di directory è comunemente utilizzata in un progetto Next.js?",
     "answers": [
       {
         "text": "Monostruttura",
@@ -303,6 +270,75 @@
       {
         "text": "Struttura gerarchica",
         "isCorrect": true
+      }
+    ],
+    "points": 15
+  },
+
+  {
+    "text": "Quale comando Next.js viene utilizzato per eseguire il prerendering delle pagine?",
+    "answers": [
+      {
+        "text": "npm run build",
+        "isCorrect": false
+      },
+      {
+        "text": "npm run dev",
+        "isCorrect": false
+      },
+      {
+        "text": "npm run start",
+        "isCorrect": false
+      },
+      {
+        "text": "npm run export",
+        "isCorrect": true
+      }
+    ],
+    "points": 20
+  },
+
+  {
+    "text": "In quale directory vengono solitamente collocati i file delle pagine in un progetto Next.js?",
+    "answers": [
+      {
+        "text": "src",
+        "isCorrect": false
+      },
+      {
+        "text": "pages",
+        "isCorrect": true
+      },
+      {
+        "text": "public",
+        "isCorrect": false
+      },
+      {
+        "text": "components",
+        "isCorrect": false
+      }
+    ],
+    "points": 20
+  },
+
+  {
+    "text": "Qual è la funzione utilizzata per il prerendering delle pagine in Next.js?",
+    "answers": [
+      {
+        "text": "getStaticProps",
+        "isCorrect": true
+      },
+      {
+        "text": "getServerSideProps",
+        "isCorrect": false
+      },
+      {
+        "text": "useEffect",
+        "isCorrect": false
+      },
+      {
+        "text": "fetchData",
+        "isCorrect": false
       }
     ],
     "points": 15
