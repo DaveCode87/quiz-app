@@ -64,7 +64,7 @@ export default function App() {
             <h2>Quiz App</h2>
             <h3>{numQuestions} questions to test your quiz app</h3>
             <button className="btn btn-ui" onClick={startQuiz}>
-              Let's Go
+            {`Let's Go`}
             </button>
           </div>
         )}
